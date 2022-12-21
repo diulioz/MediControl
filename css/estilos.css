@@ -103,6 +103,8 @@ form{
     border-radius: 10px;
     text-align: left;
     padding: 1.2rem 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 label{
