@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDICONTROL</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <main class="contenedor">
+        <section class="lado-izq">
+            <div class="contenedor-izq">
+                <form>
+                    
+                    <label>Seleccionar Medicamento</label>
+                    <select name="lstEtado" id="lstEtado">
+                        <option value="1">Medicamento 1</option>
+                        <option value="2">Medicamento 2</option>
+                        <option value="3">Medicamento 3</option>
+                        <option value="3">Medicamento 4</option>
+                    </select>
+
+                    <label>Cantidad</label>
+                    <input type="number" name="txtId" id="txtId" required min="1">
+
+                    <label>Frecuencia</label>
+                    <select name="lstEtado" id="lstEtado">
+                        <option value="1">Hora</option>
+                        <option value="2">Diaria</option>
+                        <option value="3">Semanal</option>
+                    </select>
+
+                    
+                    <label>Fecha y Hora de inicio</label>
+                    <input type="datetime-local" name="" id="" required>
+            
+                    <hr>
+                    <input type="submit" value="Guardar"> <!-- Envio de datos al servidor, puede validar, organiza los datos  como variable lo que tiene nombre, en barra de direcciones y enviar -->
+                    <input type="reset" value="Limpiar">
+                    <input type="button" value="Créditos">
+                </form>
+
+                <div class="T4">
+                    <a href="#">
+                        Guardar
+                    </a>                       
+                </div>
+
+                <div class="T4">
+                    <a href="index.html">
+                        Regresar
+                    </a>                       
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
