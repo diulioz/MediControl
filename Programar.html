@@ -11,10 +11,20 @@
     <main class="contenedor">
         <section class="lado-izq">
             <div class="contenedor-izq">
+                <div class="T0">
+                    <h2 class="nombre">MediControl</h2>
+                    <p class="T1">Al Cuidado de su Salud</p>
+                    <div class="separacion"></div>
+                </div>
+                <div class="separacion"></div>
+                <div class="T2">
+                    <h3>Programar Medicamento</h1>
+                </div>
+                <div class="separacion"></div>
+
                 <form>
-                    
                     <label>Seleccionar Medicamento</label>
-                    <select name="lstEtado" id="lstEtado">
+                    <select class="sel" name="lstEtado" id="lstEtado">
                         <option value="1">Medicamento 1</option>
                         <option value="2">Medicamento 2</option>
                         <option value="3">Medicamento 3</option>
@@ -22,10 +32,10 @@
                     </select>
 
                     <label>Cantidad</label>
-                    <input type="number" name="txtId" id="txtId" required min="1">
+                    <input class="sel" type="number" name="txtId" id="txtId" required min="1">
 
                     <label>Frecuencia</label>
-                    <select name="lstEtado" id="lstEtado">
+                    <select class="sel" name="lstEtado" id="lstEtado">
                         <option value="1">Hora</option>
                         <option value="2">Diaria</option>
                         <option value="3">Semanal</option>
@@ -33,21 +43,19 @@
 
                     
                     <label>Fecha y Hora de inicio</label>
-                    <input type="datetime-local" name="" id="" required>
+                    <input class="sel" type="datetime-local" name="" id="" required>
             
                     <hr>
-                    <input type="submit" value="Guardar"> <!-- Envio de datos al servidor, puede validar, organiza los datos  como variable lo que tiene nombre, en barra de direcciones y enviar -->
-                    <input type="reset" value="Limpiar">
-                    <input type="button" value="Créditos">
                 </form>
-
-                <div class="T4">
+                <div class="separacion"></div>
+                <div class="T2">
                     <a href="#">
                         Guardar
                     </a>                       
                 </div>
 
-                <div class="T4">
+                <div class="separacion"></div>
+                <div class="T2">
                     <a href="index.html">
                         Regresar
                     </a>                       

@@ -11,26 +11,37 @@
     <main class="contenedor">
         <section class="lado-izq">
             <div class="contenedor-izq">
+                <div class="T0">
+                    <h2 class="nombre">MediControl</h2>
+                    <p class="T1">Al Cuidado de su Salud</p>
+                    <div class="separacion"></div>
+                </div>
+                <div class="separacion"></div>
+                <div class="T2">
+                    <h3>Agregar Medicamento</h1>
+                </div>
+                <div class="separacion"></div>
                 <form>
                     
                     <label>Nombre</label>
-                    <input type="text" name="txtNombre" id="txtNombre" required>
-                    
+                    <input class="sel" type="text" name="txtNombre" id="txtNombre" required>
+                    <div class="separacion2"></div>
+
                     <label>Concentración</label>
-                    <select name="lstEtado" id="lstEtado">
+                    <select class="sel"name="lstEtado" id="lstEtado">
                         <option value="1">gramos</option>
                         <option value="2">miligramos</option>
                     </select>
-
+                    <div class="separacion2"></div>
                     <label>Via de administración</label>
-                    <select name="lstEtado" id="lstEtado">
+                    <select class="sel" name="lstEtado" id="lstEtado">
                         <option value="1">Oral</option>
                         <option value="2">Inyección</option>
                         <option value="3">Topico</option>
                     </select>
-
+                    <div class="separacion2"></div>
                     <label>Presentación</label>
-                    <select name="lstEtado" id="lstEtado">
+                    <select class="sel" name="lstEtado" id="lstEtado">
                         <option value="1">Pastilla</option>
                         <option value="2">Solución</option>
                         <option value="3">Inyección</option>
@@ -38,20 +49,15 @@
                         <option value="5">Gotas</option>
                         <option value="6">Otro</option>
                     </select>
-            
-                    <hr>
-                    <input type="submit" value="Guardar"> <!-- Envio de datos al servidor, puede validar, organiza los datos  como variable lo que tiene nombre, en barra de direcciones y enviar -->
-                    <input type="reset" value="Limpiar">
-                    <input type="button" value="Créditos">
                 </form>
-
-                <div class="T4">
+                <div class="separacion"></div>
+                <div class="T2">
                     <a href="#">
                         Guardar
                     </a>                       
                 </div>
-
-                <div class="T4">
+                <div class="separacion"></div>
+                <div class="T2">
                     <a href="index.html">
                         Regresar
                     </a>                       
