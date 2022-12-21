@@ -40,7 +40,7 @@ body{
 }
 
 .T0 img{
-    width: 60%;
+    width: 70%;
     border-radius: 20%;
     border: 8px;
 }
@@ -75,24 +75,31 @@ body{
 
 .T2{
     background-color: rgb(19,191,179);
-    font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: whitesmoke;
     padding: 1rem;
     text-align: center;
-    padding-bottom: 1.8rem;
+}
+
+a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 4px;
+    color: whitesmoke;
 }
 
 form{
     background-color: white;
-    /* padding es una margen interna, engorda las cosas */
-    
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    width: 80%;
+    width: 100%;
     margin: auto;
-    border: 4px black double;
     border-radius: 10px;
     text-align: left;
     padding: 1.2rem 0;
@@ -101,14 +108,13 @@ form{
 label{
     display: block;
     font-weight: bold;
-    /* font-weight bold texto en negrilla */
     color: rgb(162, 155, 155);
     margin-top: 8px;
-    width: 100%;
-    font-size: 1.2rem;
+    width: 50%;
+    font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 1rem;
+    padding: 0.2rem;
 
 }
 
@@ -120,12 +126,13 @@ label{
     color: black;
     padding: 1rem;
     text-align: center;
+    font-weight: bold;
 }
 
 
 @media screen and (max-width:780px){
     .lado-izq{
-        grid-column: span 3;
+        grid-column: span 1;
     }
 }
 
